@@ -1,21 +1,15 @@
-import 'antd/dist/reset.css';
-import '@/styles/globals.css'
-import type {AppProps} from 'next/app'
-import Layout from "@/pages/components/layout";
-import {RecoilRoot} from "recoil";
-import {DevSupport} from "@react-buddy/ide-toolbox-next";
-import {ComponentPreviews, useInitial} from "@/components/dev";
+import "antd/dist/reset.css";
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
+import Layout from "@/components/layout";
+import { RecoilRoot } from "recoil";
 
-export default function App({Component, pageProps}: AppProps) {
-    return (
-        <RecoilRoot>
-            <Layout>
-                <DevSupport ComponentPreviews={ComponentPreviews}
-                            useInitialHook={useInitial}
-                >
-                    <Component {...pageProps} />
-                </DevSupport>
-            </Layout>
-        </RecoilRoot>
-    )
+export default function App({ Component, pageProps }: AppProps) {
+  return (
+    <RecoilRoot>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </RecoilRoot>
+  );
 }

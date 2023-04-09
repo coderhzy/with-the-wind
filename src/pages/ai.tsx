@@ -1,13 +1,12 @@
 import React, { memo } from "react";
-import Link from "next/link";
-import { Button } from "antd";
 
 const Ai = memo(() => {
   return (
     <div>
-      <Link href={"https://chatgpt-gold-alpha.vercel.app/"} target={"_blank"}>
-        <Button>去聊天</Button>
-      </Link>
+      <iframe
+        className="h-screen w-screen"
+        src={"https://chatgpt-gold-alpha.vercel.app/"}
+      ></iframe>
     </div>
   );
 });
