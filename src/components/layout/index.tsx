@@ -1,6 +1,7 @@
 import React, { memo } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import Plum from "./Plum";
 
 interface IProps {
   children: React.ReactNode;
@@ -16,6 +17,7 @@ const Layout = memo(({ children }: IProps) => {
           <Footer />
         </div>
       </div>
+      <Plum />
     </>
   );
 });
