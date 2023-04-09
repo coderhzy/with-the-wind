@@ -4,7 +4,7 @@ const Ai = memo(() => {
   return (
     <div>
       <iframe
-        className="h-screen w-screen"
+        className="h-[600px] w-[800px] mb:w-[500px]"
         src={"https://chatgpt-gold-alpha.vercel.app/"}
       ></iframe>
     </div>
