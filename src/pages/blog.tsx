@@ -1,7 +1,12 @@
+import BlogCard from "@/components/content/blog/BlogCard";
 import React, { memo } from "react";
 
 const Blog = memo(() => {
-  return <div>Blog</div>;
+  return (
+    <div>
+      <BlogCard />
+    </div>
+  )
 });
 
 export default Blog;

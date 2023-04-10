@@ -21,6 +21,7 @@
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "intercept-stdout": "^0.1.2",
+    "mdx-bundler": "^9.0.1",
     "next": "13.3.0",
     "postcss": "8.4.21",
     "prettier": "^2.8.7",
@@ -28,7 +29,12 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-use": "^17.4.0",
+    "reading-time": "^1.5.0",
     "recoil": "^0.7.7",
+    "rehype-autolink-headings": "^6.1.1",
+    "rehype-prism-plus": "^1.4.2",
+    "rehype-slug": "^5.0.1",
+    "remark-gfm": "^3.0.1",
     "tailwindcss": "3.3.1",
     "typescript": "5.0.4"
   }

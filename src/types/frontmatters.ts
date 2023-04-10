@@ -1,3 +1,5 @@
+export type ContentType = "blog" | "library" | "projects";
+
 export type projectItemType = {
   title: string;
   description: string;
